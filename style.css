@@ -1,0 +1,131 @@
+html {
+    box-sizing: border-box;
+    background-color: black;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  button {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 2.5px 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  button:hover{
+    cursor:pointer;
+    /* to add the sparkel */
+    box-shadow:0 0.4rem 1.4rem 0 rgb(33, 247, 33); 
+    /* to add a bounce effect on touch */
+    transition:transform 150ms;
+    transform:scale(1.03);
+  }
+  b {
+    font-weight: bold;
+  }
+  
+  body {
+    width: 700px;
+    margin: 0 auto;
+    font-family: "Open-sans";
+    color: #111;
+  }
+  
+  .container {
+    margin: 2% auto;
+    padding: 20px;
+    margin-top:30px;
+    background-color: blue;
+    --webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+    margin: 1% 0 3%;
+    color: rgb(32, 4, 4)(54, 30, 30);
+  }
+  
+  textarea {
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+    line-height: 1.5rem;
+    background-color: black;
+    color:white;
+    border-radius: 25px;
+  }
+  
+  textarea:hover {
+    border-color: #0c0c0c;
+  }
+
+  footer{
+    font-style: oblique;
+  }
+  
+  textarea:focus {
+    border-color: white;
+  }
+  
+  .output.row {
+    width: 100%;
+    border: 1px solid #DDD;
+    font-size: 1.4rem;
+    margin: 1% 0;
+    background-color: black;
+    color:white;
+    border-radius: 8px;
+  }
+  
+  .output.row div {
+    display: inline-block;
+    width: 45%;
+    padding: 10px 15px;
+    margin: 1%;
+  }
+  
+  .output.row span {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .output{
+    width: 100%;
+    border: 1px solid #DDD;
+    font-size: 1.4rem;
+    margin: 1% 0;
+    background-color: black;
+    color:white;
+    border-radius: 8px;
+  }
+  
+  .output div {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 1%;
+  }
+  
+  input {
+    width: 35%;
+    font-size:19px;	
+  }
+  
+  

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Word Counter</h1>
+        <div class="output">
+            <div>
+                Enter The Character Limit : <input type="number" min="0" id="limit"
+                    placeholder="Please Enter the Limit...">
+                <button onclick="myFunction()">Submit</button>
+            </div>
+
+        </div>
+        <div class="output row">
+            <div>
+                Characters Remaining: <span id="wordlimit"></span>
+            </div>
+        </div>
+        <textarea id="text" placeholder="Enter your text here...">
+
+          </textarea>
+        <div class="output row">
+            <div>Characters: <span id="characterCount">0</span></div>
+            <div>Words: <span id="wordCount">0</span></div>
+        </div>
+        <div class="output row">
+            <div>Paragraphs: <span id="paragraphCount">0</span></div>
+        </div>
+
+        <footer align="center">
+            <p style="font-size: 25px; font-weight: 800; font-style: italic;"> <i class="fa fa-heart"
+                    style="font-size:25px;color:black"></i> Made By Mahima Khatri <i class="fa fa-heart"
+                    style="font-size:25px;color:black"></i></p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+    <script src="/main.js"></script>
+
+</body>
+
+</html>
